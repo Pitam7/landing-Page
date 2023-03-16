@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+body{
+    font-family: 'poppins',sans-serif;
+    
+}
+#main {
+  width: 100%;
+  justify-content: end;
+  margin-top: 60px;
+  position: absolute;
+  padding-left: 250px;
+  
+
+}
+.container{
+    position: absolute;
+    z-index: 20;
+    margin-top: 20px;
+}
+
+body .svg{
+    position: absolute;
+    z-index: 10;
+    right: 20px;
+    top: -170px;
+    padding-right: 50px;
+    
+    
+    
+}
+.svg img{
+    height: 1000px;
+    width: 500px;
+    
+}
+.custom-section{
+    
+    width: inherit;
+    padding: 40px 0;
+}
+.custom-section .col-md-4{
+    padding-top: 50px;
+    padding-left: 40px;
+}
+#main .container .custom-section .landing-text{
+        margin-top: 100px;
+        .header-land h2 {
+            font-weight: 700;
+            font-size: 63px;
+            color: red;
+            margin-bottom: 0;
+            line-height: 1;
+            white-space: nowrap;
+        }
+        h5{
+            font-weight: 300;
+            font-size: 64px;
+            color: #000;
+            line-height: 1;
+        }
+        p{
+            color: #000;
+            font-size: 14px;
+            margin-top: 30px;
+        }
+       #main a {
+            display: inline-block;
+            padding: 8px 22px;
+            color: #fff;
+            background-color: #1ea5f7;
+            border: 1px solid transparent;
+            margin-top: 60px;
+            text-decoration: none;
+            transition: .5s cubic-bezier(0.785, 0.135, 0.15, 0.85);
+            
+            &:hover{
+                color: #1ea5f7;
+                backgrounsd-color: #fff;
+                border: 1px solid #1ea5f7;
+                
+                
+                
+            }
+        }
+    }
+#container.col-lg-8{
+        width: 100%;
+        position: absolute;
+        top: -14rem;
+        right: -11%;
+        
+        
+        }
+        
+    
+
+
+@media screen and (max-width: 1100px){
+    #main {
+  width: 100%;
+  justify-content: end;
+  margin-top: 100px;
+  position: absolute;
+  padding-left: 0px;
+        
+  
+
+}
+
+}
+@media screen and (max-width: 700px){
+    #main {
+  width: 100%;
+  justify-content: end;
+  margin-top: 100px;
+  position: absolute;
+  padding-left: 0px;
+  
+
+}
+}
